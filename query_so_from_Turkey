@@ -1,0 +1,15 @@
+SELECT
+    ROW_NUMBER() OVER(ORDER BY Reputation DESC) AS [#], 
+    Id AS [User Link], 
+    Reputation
+FROM
+    Users
+WHERE
+    LOWER(Location) LIKE '%turkey%'
+    OR UPPER(Location) LIKE '%TURKEY%'
+    or Location like '%Turkey%'
+    AND Reputation >= 1000
+ORDER BY
+    Reputation DESC;
+    
+##  http://data.stackexchange.com/
