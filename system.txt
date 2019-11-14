@@ -1,0 +1,6 @@
+system
+
+
+domain controller vs active directory
+
+https://web.archive.org/web/20191114112529/https://adamtheautomator.com/domain-controller-vs-active-directory/
